@@ -2,14 +2,14 @@ import "./style.css";
 
 let score = 0;
 const prompts = [
-    { text: "Driver D", imageURL: "https://cdn.discordapp.com/attachments/372831696208396310/1423103726658256948/Untitled96_20251001192440.png?ex=69d2fda0&is=69d1ac20&hm=f9b80acbe639eae98c3cacf67fe155cd6f155bbfa66e16a1943ba526bd79d006" },
+    { text: "Driver D", imageURL: "/assets/driver_d.png" },
     { text: "Shinji Chair", imageURL: "https://media1.tenor.com/m/2tmFzIpCJTYAAAAd/shinji-shinji-ikari.gif" },
     { text: "Walter White", imageURL: "https://media1.tenor.com/m/hNXLU2QmnaQAAAAd/breaking-bad-walter-white.gif" },
     { text: "Haruhi Suzumiya Dance", imageURL: "https://media1.tenor.com/m/_qC15cY02NMAAAAd/anime-haruhi.gif" },
-    { text: "Donald Trump", imageURL: "https://cdn.discordapp.com/attachments/372831696208396310/1488688513783431309/Untitled14_20260320102150.jpg?ex=69d2f6b8&is=69d1a538&hm=fa1483a01af9d689ca669f6625c165ac70eddf6d5d4cd4270c87bf055507343c" },
-    { text: "Steel Ball Run", imageURL: "https://cdn.discordapp.com/attachments/1484573985885786112/1490175009157681363/maxresdefault.png?ex=69d31920&is=69d1c7a0&hm=06378a13a3a315886992c2d7fd81f2129732c08c611b1e19bc8b3b259046a109" },
+    { text: "Donald Trump", imageURL: "/assets/epstein.jpg" },
+    { text: "Steel Ball Run", imageURL: "https://img.youtube.com/vi/jAX8xeMLdVY/maxresdefault.jpg" },
     { text: "Uma Musume", imageURL: "https://preview.redd.it/its-sad-to-know-that-haru-urara-according-to-some-news-i-v0-u6pwl7odn5of1.gif?width=498&auto=webp&s=b929e017f2e40b5d50067507eac097ca67c7c917" },
-    { text: "All Might", imageURL: "https://cdn.discordapp.com/attachments/1484573985885786112/1490175451123941456/images.png?ex=69d31989&is=69d1c809&hm=d0584532d717d6fd1958e74494dbe76f2af6081601866200df347309922d58c0" },
+    { text: "All Might", imageURL: "https://static.wikia.nocookie.net/bokunoheroacademia/images/c/cd/Toshinori_Yagi_Golden_Age_Hero_Costume_%28Anime%29.png/revision/latest?cb=20250602032423" },
     { text: "You are my special", imageURL: "https://media1.tenor.com/m/6kXYuuoc_r4AAAAd/gojo-backshots.gif" },
     { text: "Chika Fujiwara Dance", imageURL: "https://media1.tenor.com/m/ZNMWudRKW3YAAAAd/fujiwara-chika-dance.gif" },
     { text: "I'll take a potato chip, and EAT IT!", imageURL: "https://media1.tenor.com/m/MEEuuRlZCdcAAAAd/death-note-chips.gif" },
