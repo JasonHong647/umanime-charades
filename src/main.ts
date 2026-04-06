@@ -1,12 +1,14 @@
 import "./style.css";
+import epstein from "./assets/epstein.jpg";
+import driverD from "./assets/driver_d.png";
 
 let score = 0;
 const prompts = [
-    { text: "Driver D", imageURL: "/assets/driver_d.png" },
+    { text: "Driver D", imageURL: driverD },
     { text: "Shinji Chair", imageURL: "https://media1.tenor.com/m/2tmFzIpCJTYAAAAd/shinji-shinji-ikari.gif" },
     { text: "Walter White", imageURL: "https://media1.tenor.com/m/hNXLU2QmnaQAAAAd/breaking-bad-walter-white.gif" },
     { text: "Haruhi Suzumiya Dance", imageURL: "https://media1.tenor.com/m/_qC15cY02NMAAAAd/anime-haruhi.gif" },
-    { text: "Donald Trump", imageURL: "/assets/epstein.jpg" },
+    { text: "Donald Trump", imageURL: epstein },
     { text: "Steel Ball Run", imageURL: "https://img.youtube.com/vi/jAX8xeMLdVY/maxresdefault.jpg" },
     { text: "Uma Musume", imageURL: "https://preview.redd.it/its-sad-to-know-that-haru-urara-according-to-some-news-i-v0-u6pwl7odn5of1.gif?width=498&auto=webp&s=b929e017f2e40b5d50067507eac097ca67c7c917" },
     { text: "All Might", imageURL: "https://static.wikia.nocookie.net/bokunoheroacademia/images/c/cd/Toshinori_Yagi_Golden_Age_Hero_Costume_%28Anime%29.png/revision/latest?cb=20250602032423" },
