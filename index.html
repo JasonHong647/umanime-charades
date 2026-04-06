@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>umanime-charades-vanilla</title>
+    </head>
+    <body class="text-center text-pink-500 flex justify-center items-center flex-col h-screen">
+        <p class="italic text-6xl">Current Prompt:</p>
+        <h1 class="text-9xl w-full pb-6 font-bold" id="prompt">Waiting for game to start...</h1>
+        <img id="image" alt="failed to load lol" class="h-1xl" hidden>
+        <h2 class="text-7xl" id="scoreboard">Current Score: 0</h2>
+        <div id="buttons" class="flex gap-2">
+            <button type="button" id="new-prompt" class="bg-pink-600 text-white hover:bg-pink-700 rounded px-4 py-2">New Prompt!</button>
+            <button type="button" id="skip-round" class="bg-pink-600 text-white hover:bg-pink-700 rounded px-4 py-2">Skip Round</button>
+            <button type="button" id="reset-score" class="bg-pink-600 text-white hover:bg-pink-700 rounded px-4 py-2">Reset</button>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
