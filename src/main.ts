@@ -85,8 +85,13 @@ increaseScoreBtn.addEventListener("click", increaseScore);
 skipRoundBtn.addEventListener("click", newPrompt);
 resetScoreBtn.addEventListener("click", resetScore);
 
+let started = false;
 function increaseScore(): void {
-    score++;
+    if (!started) {
+        started = true;
+    } else {
+        score++;
+    }
     printScore();
     newPrompt();
 }
